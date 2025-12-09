@@ -58,7 +58,7 @@ pipeline {
                     -cmd \
                     -quickurl https://www.example.com \
                     -quickprogress \
-                    -quickout /home/abdo/Downloads/devsecops-pipeline
+                    -quickout /home/abdo/Downloads/devsecops-pipeline/output.html
                 """
             }
         }
