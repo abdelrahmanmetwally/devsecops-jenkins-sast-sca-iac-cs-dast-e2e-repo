@@ -12,7 +12,7 @@ pipeline {
                         mvn -Dmaven.test.failure.ignore verify sonar:sonar \
                         -Dsonar.login=$SONAR_TOKEN \
                         -Dsonar.projectKey=easybuggy \
-                        -Dsonar.host.url=http://192.168.56.104/:9000/
+                        -Dsonar.host.url=http://192.168.56.104:9000/
                     """
                 }
             }
